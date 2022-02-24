@@ -117,4 +117,5 @@ Feedstock Maintainers
 =====================
 
 * [@asford](https://github.com/asford/)
+* [@xhochy](https://github.com/xhochy/)
 

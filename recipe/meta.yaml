@@ -14,11 +14,14 @@ build:
   number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
+  entry_points:
+    - marko=marko.cli:main
 
 requirements:
   host:
     - pip
     - python >=3.6
+    - pdm-pep517
   run:
     - python >=3.6
 
@@ -27,6 +30,7 @@ test:
     - marko
   commands:
     - pip check
+    - marko --help
   requires:
     - pip
 
