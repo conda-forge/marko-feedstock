@@ -1,11 +1,11 @@
-About marko
-===========
+About marko-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/marko-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/marko/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/marko-feedstock/blob/main/LICENSE.txt)
 
 Summary: A markdown parser with high extensibility.
 
