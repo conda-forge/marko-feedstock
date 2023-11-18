@@ -20,10 +20,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
-    - pdm-pep517
+    - python >=3.7
+    - pdm-backend
   run:
-    - python >=3.6
+    - python >=3.7
 
 test:
   imports:
