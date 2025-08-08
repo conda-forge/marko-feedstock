@@ -1,5 +1,5 @@
 {% set name = "marko" %}
-{% set version = "2.1.4" %}
+{% set version = "2.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/marko-{{ version }}.tar.gz
-  sha256: dd7d66f3706732bf8f994790e674649a4fd0a6c67f16b80246f30de8e16a1eac
+  sha256: 213c146ba197c1d6bcb06ae3658b7d87e45f6def35c09905b86aa6bb1984eba6
 
 build:
   number: 0
