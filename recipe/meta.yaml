@@ -1,5 +1,5 @@
 {% set name = "marko" %}
-{% set version = "2.2.4" %}
+{% set version = "2.2.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/marko-{{ version }}.tar.gz
-  sha256: c042c66f835425673123d7536b39b4660de3b68e30078c70fd26245b31170683
+  sha256: 3a5bac3a2e3ccb53cd97dcd29e422c4f701c29ec7c61be4c0d827321ef057553
 
 build:
   number: 0
